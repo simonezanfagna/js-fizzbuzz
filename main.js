@@ -1,24 +1,15 @@
 var i = 1;
-var f = '';
-var b = '';
-var fb = '';
 
 while (i < 101) {
 
-  if ((i % 15 == 0)) {
-    fb = i;
-    fb = 'FizzBuzz';
-    console.log(fb);
+  if (i % 15 == 0) {
+    console.log('FizzBuzz');
   }
   else if (i % 3 == 0){
-    f = i;
-    f = 'Fizz';
-    console.log(f);
+    console.log('Fizz');
   }
   else if (i % 5 == 0) {
-    b = i;
-    b = 'Buzz';
-    console.log(b);
+    console.log('Buzz');
   }
   else {
     console.log(i);
